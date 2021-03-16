@@ -1,0 +1,82 @@
+---
+title: "Open Source Melt Flow Index"
+subtitle: "Fostering Distributed Recycling via Additive Manufacturing"
+author: "Fabio CRUZ, Hakim, Joshua Pearce"
+institute: "<br/>Université de Lorraine <br/> Michigan Technological University"
+date: "Updated: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      ratio: '16:9'
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE, message=FALSE}
+options(htmltools.dir.version = FALSE)
+
+# Link for the Figures
+URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
+```
+
+```{r, include=TRUE, echo=FALSE}
+# CSS for the CSS
+htmltools::includeCSS("https://raw.githubusercontent.com/fabbiocrux/presentaciones/gh-pages/Assets-global/css/Fabio-fonts.css")
+htmltools::includeCSS("https://raw.githubusercontent.com/fabbiocrux/presentaciones/gh-pages/Assets-global/css/Fabio.css")
+```
+
+# Research Problem
+
+- How to measure the quality of recycled material for distributed recycling based on a *'printability'* notion.
+
+.pull-left[
+Printability could be related to:
+- $T_g$, $T_m$ , heat capacity $Cp$, viscosity/fluidity, shear stress
+How to develop a low cost/replicable equipment for this ?
+
+]
+
+.pull-right[
+- 
+]
+
+
+
+???
+
+---
+
+# Goals
+
+> Design and built an open source rheological device to indicate material’s printability 
+comparison with commercial test machines 
+
+- MFI hardware paper to submit to [HardwareX](https://www.journals.elsevier.com/hardwarex) using recycled PLA as the test case; then
+- A coupled article on some material science for [Materials and Design](https://www.journals.elsevier.com/materials-and-design/news/reproducibility-co-special-issue-open-hardware-research)
+ 
+
+---
+class: middle center
+
+# Anezka
+### Timming: Nov 2019 - April 2020
+
+Main results: 
+- first prototype and trials 
+- reproducibility of the test
+- Calibration procedure
+
+
+---
+## Literature review
+- Last update: "`r Sys.Date()`"
+- Work document for Anezka research.
+
+
+---
+
+## Benjamin Hubbard
+
+https://www.appropedia.org/Open_Source_Digitally_Replicable_Lab-Grade_Scales
