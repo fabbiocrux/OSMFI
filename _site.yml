@@ -1,0 +1,12 @@
+name: "Distill"
+title: "OSMFI"
+description: |
+  My Website
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "References"
+      href: about.html
+output: distill::distill_article

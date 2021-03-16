@@ -1,0 +1,70 @@
+---
+title: "Open Source Melt Flow Index"
+description: |
+  Towards an standard characterization of recycled wastes for DRAM!
+  
+author:
+  - first_name: "Mohamed Azharuddin "
+    last_name: "Salime Bacha"
+    url: http://erpi.univ-lorraine.fr/people/Pavlo-Santander/
+    affiliation: ERPI
+    affiliation_url: https://erpi.univ-lorraine.fr/
+    #orcid_id: 0000-0001-6328-1338  
+
+  - first_name: "Alaa"
+    last_name: "Hassam"
+    url: http://erpi.univ-lorraine.fr/people/Pavlo-Santander/
+    affiliation: ERPI
+    affiliation_url: https://erpi.univ-lorraine.fr/
+    #orcid_id: 0000-0001-6328-1338  
+    
+  - first_name: "Hakim"
+    last_name: "Boudaoud"
+    url: https://erpi.univ-lorraine.fr/people/Hakim-Boudaoud/
+    affiliation: ERPI
+    affiliation_url: https://erpi.univ-lorraine.fr/
+    orcid_id: 0000-0003-4452-5952
+    
+  - first_name: "Fabio"
+    last_name: "Cruz"
+    url: https://erpi.univ-lorraine.fr/people/Fabio-Cruz/
+    affiliation: ERPI
+    affiliation_url: https://erpi.univ-lorraine.fr/
+    orcid_id: 0000-0001-8529-5327    
+
+  - first_name: "Benjamin"
+    last_name: "Hubbard"
+    url: https://www.appropedia.org/User:Brhubbar
+    affiliation: MTU
+    affiliation_url: MTU
+    orcid_id: 
+
+  - first_name: "Joshua M."
+    last_name: "Pearce"
+    url: 
+    affiliation: MTU
+    affiliation_url: MTU
+    orcid_id: 
+
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(xaringanExtra)
+library(tidyverse)
+```
+
+
+# Presentation
+```{r ppt-OSMFI, echo=FALSE}
+embed_xaringan(url = "slides/OSMFI-PPT.html", ratio = "16:9")
+```
+
+
+
+# Description of the project
+
+
+## Useful links
+
